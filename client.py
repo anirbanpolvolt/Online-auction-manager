@@ -2,7 +2,7 @@ import socket
 
 # Define host and port
 HOST = '127.0.0.1'
-PORT = 12345
+PORT = 3430
 
 # Create a socket object
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
